@@ -1,11 +1,22 @@
 # myZSH
 myZsh
 
-
-open .zshrc    
+## Open Bash
+```
 open ~/.bash_profile
+```
+## run zsh in Bash
+```
+exec zsh
+```
+## to open zsh profile
+```
+open .zshrc
+```
 
 
+
+```
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -151,3 +162,7 @@ POWERLEVEL9K_MODE='nerdfont-complete'
 
 source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme
 ####end
+```
+
+
+# HYPHEN_INSENSITIVE="true"
