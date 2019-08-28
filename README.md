@@ -1,6 +1,6 @@
 # Custom Terminal
 
-<img src="Terminal.png"/>
+<img src="terminal.png"/>
 
 #### Install zsh
 ```
