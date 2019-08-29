@@ -2,7 +2,7 @@
 
 <img src="terminal.png"/>
 
-#### Install zsh
+#### Install zsh 
 ```
 brew install zsh
 ```
