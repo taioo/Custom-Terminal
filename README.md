@@ -12,7 +12,7 @@ open ~/.bash_profile
 ```
 #### Paste to run zsh in Bash
 ```
-exec zsh
+zsh
 ```
 #### To open zsh profile
 ```
