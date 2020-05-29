@@ -1,33 +1,27 @@
-# Custom Terminal
+Custom Terminal
+--------
 
 <img src="terminal.png"/>
 
-#### Install zsh and font [nerd-font](https://github.com/ryanoasis/nerd-fonts#option-3-install-script)
-via homebrew
+## Install packages
+
+#### [font-nerd-font](https://github.com/ryanoasis/nerd-fonts#option-3-install-script)
+( via [homebrew](https://brew.sh) )
 ```
-brew install zsh && brew tap homebrew/cask-fonts && brew cask install font-hack-nerd-font
+brew tap homebrew/cask-fonts && brew cask install font-hack-nerd-font
 ```
 
-#### Open Bash
-```
-open ~/.bash_profile
-```
-#### Paste to run zsh
-```
-zsh
-```
-
-#### Install oh-my-zsh
+#### [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-#### Install powerlevel10k in oh-my-zsh
-##### Powerlevel10k understands all [Powerlevel9k](https://github.com/Powerlevel9k/powerlevel9k) configuration parameters.
+ #### [powerlevel10k](https://github.com/romkatv/powerlevel10k) in oh-my-zsh
+( Powerlevel10k understands all [Powerlevel9k](https://github.com/Powerlevel9k/powerlevel9k) configuration parameters )
 ```
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
-#### Install zsh-syntax-highlighting in oh-my-zsh
+#### [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) in oh-my-zsh
 ```
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 ```
@@ -120,12 +114,14 @@ p10k configure
 
 ### Set terminal font to "Hack Nerd Font"
 
-# <center>Have fun</center>
+## <center>Have fun</center>
 
 </br>
+</br>
+</br>
+</br>
 
-
-###  VS Code settings
+##  VS Code settings
 ```
 {
 "terminal.integrated.fontFamily": "Hack Nerd Font",
