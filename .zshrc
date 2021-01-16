@@ -1,3 +1,6 @@
+
+#### oh-my-zsh ####
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -83,49 +86,6 @@ osx
 zsh-syntax-highlighting
 )
 
-
-# Customise the Powerlevel9k prompts
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(root_indicator os_icon dir vcs )
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(
-
-virtualenv
-anaconda
-pyenv
-nodeenv
-nvm
-chruby
-rbenv
-rspec_stats
-rvm
-aws_eb_env
-docker_machine
-
-)
-
-POWERLEVEL9K_ROOT_ICON="sudo"
-
-POWERLEVEL9K_OS_ICON_BACKGROUND="white"
-POWERLEVEL9K_OS_ICON_FOREGROUND="black"
-
-#POWERLEVEL9K_LEFT_SEGMENT_SEPARATOR='\ue0c0'
-#POWERLEVEL9K_RIGHT_SEGMENT_SEPARATOR='\uE0B6'
-
-
-POWERLEVEL9K_PROMPT_ON_NEWLINE=true
-POWERLEVEL9K_STATUS_VERBOSE=false
-
-POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=""
-POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX=""
-
-# Add the custom apple icon prompt segment
-# POWERLEVEL9K_CUSTOM_APPLELOGO="echo -n $'\ufc23'"
-
-# Load Nerd Fonts with Powerlevel9k theme for Zsh
-POWERLEVEL9K_MODE='nerdfont-complete'
-
-
-
-
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -154,4 +114,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-#### end
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+#### end ####
