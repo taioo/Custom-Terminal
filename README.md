@@ -56,65 +56,17 @@ git
 zsh-syntax-highlighting
 )
 ```
-#### customise Powerlevel9/10k
+### customise Powerlevel9/10k
 
-#### Paste this example config before "source $ZSH/oh-my-zsh.sh"
-```
-# Customise the Powerlevel9k prompts
-
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(
-
-  root_indicator 
-  os_icon 
-  dir 
-  vcs 
-
-  )
-
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(
-
-virtualenv
-anaconda
-pyenv
-nodeenv
-nvm
-chruby
-rbenv
-rspec_stats
-rvm
-aws_eb_env
-docker_machine
-
-)
-
-POWERLEVEL9K_ROOT_ICON="sudo"
-
-POWERLEVEL9K_OS_ICON_BACKGROUND="white"
-POWERLEVEL9K_OS_ICON_FOREGROUND="black"
-
-# icon start with '\u....'
-#POWERLEVEL9K_LEFT_SEGMENT_SEPARATOR='\ue0c0'
-#POWERLEVEL9K_RIGHT_SEGMENT_SEPARATOR='\uE0B6'
-
-
-POWERLEVEL9K_PROMPT_ON_NEWLINE=true
-POWERLEVEL9K_STATUS_VERBOSE=false
-
-POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=""
-POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX=""
-
-# Add the custom apple icon prompt segment
-# POWERLEVEL9K_CUSTOM_APPLELOGO="echo -n $'\ufc23'"
-
-# Load Nerd Fonts with Powerlevel9k theme for Zsh
-POWERLEVEL9K_MODE='nerdfont-complete'
-
-```
-
-#### OR run in terminal
+run in terminal
 ```
 p10k configure
 ```
+or
+```
+open ~/.p10k.zsh
+```
+
 
 
 </br>
