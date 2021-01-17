@@ -58,7 +58,9 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 ```
 plugins=(
 git
+osx
 zsh-syntax-highlighting
+zsh-autosuggestions
 )
 ```
 ### customise Powerlevel9/10k
