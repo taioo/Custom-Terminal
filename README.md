@@ -32,13 +32,6 @@ git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugi
 ```
 
 
-#### Update powerlevel10k & zsh-syntax-highlighting
-```
-git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull &&
-git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting pull
-```
-
-
 </br>
 </br>
 </br>
@@ -78,6 +71,13 @@ open ~/.p10k.zsh
 
 </br>
 
+
+## Update plugins
+```
+git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull &&
+git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting pull &&
+git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-autosuggestions pull
+```
 
 ### Set terminal font to "Hack Nerd Font"
 
