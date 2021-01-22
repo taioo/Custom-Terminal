@@ -8,7 +8,7 @@ Custom Terminal
 #### [font-nerd-font](https://github.com/ryanoasis/nerd-fonts#option-3-install-script)
 ( via [homebrew](https://brew.sh) )
 ```
-brew tap homebrew/cask-fonts && brew cask install font-hack-nerd-font
+brew tap homebrew/cask-fonts && brew install font-hack-nerd-font
 ```
 
 #### [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
